@@ -3,11 +3,12 @@
 
 module.exports = function(){
     let roll ={};
-    roll.count=process.argv[2];
+    
     if (process.argv[3]){
+        roll.count=process.argv[2];
         roll.sides=process.argv[3];
     }else {
-        roll.sides = 1;
+        roll.sides = process.argv[2];
     }
    
     
