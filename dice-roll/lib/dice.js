@@ -4,26 +4,24 @@
 const randomInt = require('./math')
 
 
-module.exports = function({count,sides}){
+module.exports = {
     
-    function toDiceNotation({count,sides}){
-        diceStr = `${count}d${sides}`
+    toDiceNotation({count,sides}){
+        console.log(count,sides,"count");
+        let diceStr = `${count}d${sides}`;
+        console.log(diceStr, "diceStr");
         return diceStr;
-    }
+        
+    },
 
-    function roll(diceStr){
+    roll(diceStr){
         let diceArry = [...diceStr] 
-        const [count, sides] = input.split('d'); //deconstruct array
+        const [count, sides] = diceStr.split('d'); //deconstruct array
 
-        lower = +sides; 
-        upper = +count * +sides;
-        randomInt(lower,upper);
+        let lower = +sides; 
+        let upper = +count * +sides;
+        return randomInt(lower,upper);
     }
 
-
-    return{
-        toDiceNotation,
-        roll
-    };
-
+ 
 };

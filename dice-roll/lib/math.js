@@ -2,6 +2,6 @@
 
 module.exports = function(lowBound, upperBound){
    
-    return Math.floor(Math.random()* (upperBound - lowBound + 1) +min);
+    return Math.floor(Math.random()* (upperBound - lowBound + 1) + lowBound);
 
 }
