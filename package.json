@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "diceroll": "./bin/diceroll"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CourtneyBrothers/orientation-modularity.git"
