@@ -18,7 +18,7 @@ module.exports = {
         let diceArry = [...diceStr] 
         const [count, sides] = diceStr.split('d'); //deconstruct array
 
-        let lower = +sides; 
+        let lower = +count; 
         let upper = +count * +sides;
         return randomInt(lower,upper);
     }

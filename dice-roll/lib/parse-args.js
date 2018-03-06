@@ -9,6 +9,7 @@ module.exports = function(){
         roll.sides=process.argv[3];
     }else {
         roll.sides = process.argv[2];
+        roll.count = 1;
     }
    
     
