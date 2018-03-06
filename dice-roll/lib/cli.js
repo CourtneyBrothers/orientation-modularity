@@ -5,7 +5,7 @@ process.title = 'Dice Roll'
 const { argv: [,, ...args] } = process
 // const { count, sides } = require('./parse-args')
 const { count, sides } = require('./parse-args')(args)
-console.log(count,sides, "count","sides");
+// console.log(count,sides, "count","sides");
 const { roll, toDiceNotation } = require('./dice')
 
 const dice = toDiceNotation({count, sides})

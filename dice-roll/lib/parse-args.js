@@ -13,7 +13,7 @@ module.exports = function(){
     }
    
     
-    console.log(roll,"roll");
+    // console.log(roll,"roll");
     return roll;
    
     

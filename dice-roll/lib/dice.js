@@ -7,9 +7,9 @@ const randomInt = require('./math')
 module.exports = {
     
     toDiceNotation({count,sides}){
-        console.log(count,sides,"count");
+        // console.log(count,sides,"count");
         let diceStr = `${count}d${sides}`;
-        console.log(diceStr, "diceStr");
+        // console.log(diceStr, "diceStr");
         return diceStr;
         
     },
