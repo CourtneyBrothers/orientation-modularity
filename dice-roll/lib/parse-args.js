@@ -22,4 +22,12 @@ module.exports = function(){
     
 }
 
+//Joes way from class 
+//module.exports = ([num,sides])> {
+   // const dieNums = {};
+    //dieNums.count = sides ? num :1;
+//     dieNums.sides = sides || num || 6;
+//  return dieNums;
+// }
 
+//ES6 inc way to destructure objects with default arguments 

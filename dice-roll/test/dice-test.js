@@ -24,25 +24,25 @@
  
 // };
 
-function makeDiceNotation(count,sides){
-    return `${count}d${sides}`;
-}
+// function makeDiceNotation(count,sides){
+//     return `${count}d${sides}`;
+// }
 
-function testDiceNotation(){
-    const count=10;
-    const sides=1000;
-    const diceStr1 = `10d1000`;
-    const diceStr2 = makeDiceNotation(count,sides);
-}
+// function testDiceNotation(){
+//     const count=10;
+//     const sides=1000;
+//     const diceStr1 = `10d1000`;
+//     const diceStr2 = makeDiceNotation(count,sides);
+// }
 
-console.log("Expect diceStr1 and diceStr2 to equal 10d1000");
-if (diceStr1 === diceStr2){
-    console.log("passed")
-}else{
-    console.log("failed")
-}
+// console.log("Expect diceStr1 and diceStr2 to equal 10d1000");
+// if (diceStr1 === diceStr2){
+//     console.log("passed")
+// }else{
+//     console.log("failed")
+// }
 
-testDiceNotation();
+// testDiceNotation();
 
 //TEST Roll
 // roll(diceStr){
