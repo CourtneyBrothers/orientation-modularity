@@ -11,6 +11,9 @@ describe("Math",()=>{
             for (let i=0; i<1000; i++){
                oneOf(randomInt(1,6),[1,2,3,4,5,6])
             }
+        });
+        it('should handle args that are not numbers',()=>{
+            oneOf(randomInt("1",6),[1,2,3,4,5,6])
         })
     });
 });
