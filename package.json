@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R list --watch"
   },
   "bin": {
     "diceroll": "./bin/diceroll"
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/CourtneyBrothers/orientation-modularity/issues"
   },
-  "homepage": "https://github.com/CourtneyBrothers/orientation-modularity#readme"
+  "homepage": "https://github.com/CourtneyBrothers/orientation-modularity#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.2"
+  }
 }
